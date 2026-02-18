@@ -7,7 +7,7 @@
 import { Palette } from "../interface";
 
 export function getDefaultSyntax(palette: Palette) {
-  const syntax = [
+  return [
     // Syntax{{{
     {
       name: "Keyword",
@@ -2153,17 +2153,15 @@ export function getDefaultSyntax(palette: Palette) {
         foreground: palette.purple,
       },
     },
+    {
+      name: "Comment",
+      scope: "comment, string.comment, punctuation.definition.comment",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
     // }}}
   ];
-  // Comment - never italic
-  syntax.push({
-    name: "Comment",
-    scope: "comment, string.comment, punctuation.definition.comment",
-    settings: {
-      foreground: palette.grey1,
-    },
-  });
-  return syntax;
 }
 
 // vim: fdm=marker fmr={{{,}}}:
