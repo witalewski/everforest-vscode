@@ -106,18 +106,6 @@
           "default": true,
           "description": "Italicize comments or not."
         },
-        "everforest.diagnosticTextBackgroundOpacity": {
-          "type": "string",
-          "default": "0%",
-          "markdownDescription": "The opacity of the background color of [diagnostic text](https://code.visualstudio.com/updates/v1_52#_error-background-colors).",
-          "enum": [
-            "0%",
-            "12.5%",
-            "25%",
-            "37.5%",
-            "50%"
-          ]
-        },
         "everforest.highContrast": {
           "type": "boolean",
           "default": false,

@@ -8,6 +8,8 @@ All notable changes to the "everforest" extension will be documented in this fil
 - Always use the default selection colors in all workbench styles.
 - Remove `everforest.darkCursor` and `everforest.lightCursor` customization options.
 - Always use the default cursor colors in all workbench styles.
+- Remove `everforest.diagnosticTextBackgroundOpacity` customization option.
+- Always use the default diagnostic text background opacity in all workbench styles.
 
 ## 0.3.0
 

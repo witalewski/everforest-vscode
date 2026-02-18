@@ -56,7 +56,6 @@ const configuration: Configuration = {
   lightWorkbench: "material",
   italicKeywords: false,
   italicComments: true,
-  diagnosticTextBackgroundOpacity: "0%",
   highContrast: false,
 };
 

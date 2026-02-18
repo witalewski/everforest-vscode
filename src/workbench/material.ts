@@ -15,7 +15,6 @@ export function materialWorkbench(
   let editorSelectionBg: string;
   let editorSelectionBgHl: string;
   let cursorFg: string;
-  let diagnosticTextBackgroundOpacity: string;
   if (variant === "dark") {
     selectionBg = `${palette.bg4}e0`;
     editorSelectionBg = `${palette.bg4}c0`;
@@ -27,33 +26,6 @@ export function materialWorkbench(
     editorSelectionBgHl = `${palette.bg4}50`;
     cursorFg = `${palette.fg}`;
   }
-  switch (
-    configuration.diagnosticTextBackgroundOpacity // {{{
-  ) {
-    case "0%": {
-      diagnosticTextBackgroundOpacity = "00";
-      break;
-    }
-    case "12.5%": {
-      diagnosticTextBackgroundOpacity = "20";
-      break;
-    }
-    case "25%": {
-      diagnosticTextBackgroundOpacity = "40";
-      break;
-    }
-    case "37.5%": {
-      diagnosticTextBackgroundOpacity = "60";
-      break;
-    }
-    case "50%": {
-      diagnosticTextBackgroundOpacity = "80";
-      break;
-    }
-    default: {
-      diagnosticTextBackgroundOpacity = "00";
-    }
-  } // }}}
   const tokens = {
     foreground: `${palette.grey2}`,
     focusBorder: `${palette.bg}00`,
@@ -223,9 +195,9 @@ export function materialWorkbench(
     "editorWarning.foreground": `${palette.dimYellow}`,
     "editorInfo.foreground": `${palette.dimBlue}`,
     "editorHint.foreground": `${palette.dimPurple}`,
-    "editorError.background": `${palette.dimRed}${diagnosticTextBackgroundOpacity}`,
-    "editorWarning.background": `${palette.dimYellow}${diagnosticTextBackgroundOpacity}`,
-    "editorInfo.background": `${palette.dimBlue}${diagnosticTextBackgroundOpacity}`,
+    "editorError.background": `${palette.dimRed}00`,
+    "editorWarning.background": `${palette.dimYellow}00`,
+    "editorInfo.background": `${palette.dimBlue}00`,
     "editorGutter.background": `${palette.bg}00`,
     "editorGutter.modifiedBackground": `${palette.dimBlue}a0`,
     "editorGutter.addedBackground": `${palette.dimGreen}a0`,

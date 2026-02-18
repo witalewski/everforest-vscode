@@ -154,6 +154,8 @@ Note: selection color customization has been removed. Selection colors now alway
 
 Note: cursor color customization has been removed. Cursor colors now always use the default Everforest values.
 
+Note: diagnostic text background opacity customization has been removed. Diagnostic text backgrounds now always use the default Everforest opacity.
+
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.
 3. Select `Everforest` and change the settings.
