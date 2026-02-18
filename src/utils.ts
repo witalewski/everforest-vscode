@@ -28,16 +28,12 @@ export default class Utils {
     return {
       darkContrast: workspaceConfiguration.get<string>("darkContrast"),
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),
-      darkWorkbench: workspaceConfiguration.get<string>("darkWorkbench"),
-      lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
       highContrast: workspaceConfiguration.get<boolean>("highContrast"),
     };
   } // }}}
   isDefaultConfiguration(configuration: Configuration): boolean {
     // {{{
     return (
-      configuration.lightWorkbench === "material" &&
-      configuration.darkWorkbench === "material" &&
       configuration.lightContrast === "medium" &&
       configuration.darkContrast === "medium" &&
       configuration.highContrast === false

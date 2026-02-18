@@ -158,6 +158,8 @@ Note: diagnostic text background opacity customization has been removed. Diagnos
 
 Note: italic styling customization has been removed. Keywords and comments are never italicized.
 
+Note: workbench style customization has been removed. The theme now always uses the flat workbench style.
+
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.
 3. Select `Everforest` and change the settings.

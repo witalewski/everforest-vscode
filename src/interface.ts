@@ -13,8 +13,6 @@
 export interface Configuration {
   darkContrast?: string;
   lightContrast?: string;
-  darkWorkbench?: string;
-  lightWorkbench?: string;
   highContrast?: boolean;
 }
 
