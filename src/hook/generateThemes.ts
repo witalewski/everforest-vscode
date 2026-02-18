@@ -54,8 +54,6 @@ const configuration: Configuration = {
   lightContrast: "medium",
   darkWorkbench: "material",
   lightWorkbench: "material",
-  darkCursor: "white",
-  lightCursor: "black",
   italicKeywords: false,
   italicComments: true,
   diagnosticTextBackgroundOpacity: "0%",

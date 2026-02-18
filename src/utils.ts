@@ -30,8 +30,6 @@ export default class Utils {
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),
       darkWorkbench: workspaceConfiguration.get<string>("darkWorkbench"),
       lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
-      darkCursor: workspaceConfiguration.get<string>("darkCursor"),
-      lightCursor: workspaceConfiguration.get<string>("lightCursor"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
       italicComments: workspaceConfiguration.get<boolean>("italicComments"),
       diagnosticTextBackgroundOpacity: workspaceConfiguration.get<string>(
@@ -49,8 +47,6 @@ export default class Utils {
       configuration.darkWorkbench === "material" &&
       configuration.lightContrast === "medium" &&
       configuration.darkContrast === "medium" &&
-      configuration.darkCursor === "white" &&
-      configuration.lightCursor === "black" &&
       configuration.diagnosticTextBackgroundOpacity === "0%" &&
       configuration.highContrast === false
     );

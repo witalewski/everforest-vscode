@@ -15,8 +15,6 @@ export interface Configuration {
   lightContrast?: string;
   darkWorkbench?: string;
   lightWorkbench?: string;
-  darkCursor?: string;
-  lightCursor?: string;
   italicKeywords?: boolean;
   italicComments?: boolean;
   diagnosticTextBackgroundOpacity?: string;

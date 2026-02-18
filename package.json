@@ -96,36 +96,6 @@
             "high-contrast"
           ]
         },
-        "everforest.darkCursor": {
-          "type": "string",
-          "default": "white",
-          "description": "The cursor color in the dark variant.",
-          "enum": [
-            "white",
-            "red",
-            "orange",
-            "yellow",
-            "green",
-            "aqua",
-            "blue",
-            "purple"
-          ]
-        },
-        "everforest.lightCursor": {
-          "type": "string",
-          "default": "black",
-          "description": "The cursor color in the light variant.",
-          "enum": [
-            "black",
-            "red",
-            "orange",
-            "yellow",
-            "green",
-            "aqua",
-            "blue",
-            "purple"
-          ]
-        },
         "everforest.italicKeywords": {
           "type": "boolean",
           "default": false,

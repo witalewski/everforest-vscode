@@ -20,88 +20,12 @@ export function flatWorkbench(
     selectionBg = `${palette.bg4}e0`;
     editorSelectionBg = `${palette.bg4}c0`;
     editorSelectionBgHl = `${palette.bg4}60`;
-    switch (
-      configuration.darkCursor // {{{
-    ) {
-      case "white": {
-        cursorFg = `${palette.fg}`;
-        break;
-      }
-      case "red": {
-        cursorFg = `${palette.red}`;
-        break;
-      }
-      case "orange": {
-        cursorFg = `${palette.orange}`;
-        break;
-      }
-      case "yellow": {
-        cursorFg = `${palette.yellow}`;
-        break;
-      }
-      case "green": {
-        cursorFg = `${palette.green}`;
-        break;
-      }
-      case "aqua": {
-        cursorFg = `${palette.aqua}`;
-        break;
-      }
-      case "blue": {
-        cursorFg = `${palette.blue}`;
-        break;
-      }
-      case "purple": {
-        cursorFg = `${palette.purple}`;
-        break;
-      }
-      default: {
-        cursorFg = `${palette.fg}`;
-      }
-    } // }}}
+    cursorFg = `${palette.fg}`;
   } else {
     selectionBg = `${palette.bg4}c0`;
     editorSelectionBg = `${palette.bg4}a0`;
     editorSelectionBgHl = `${palette.bg4}50`;
-    switch (
-      configuration.lightCursor // {{{
-    ) {
-      case "black": {
-        cursorFg = `${palette.fg}`;
-        break;
-      }
-      case "red": {
-        cursorFg = `${palette.red}`;
-        break;
-      }
-      case "orange": {
-        cursorFg = `${palette.orange}`;
-        break;
-      }
-      case "yellow": {
-        cursorFg = `${palette.yellow}`;
-        break;
-      }
-      case "green": {
-        cursorFg = `${palette.green}`;
-        break;
-      }
-      case "aqua": {
-        cursorFg = `${palette.aqua}`;
-        break;
-      }
-      case "blue": {
-        cursorFg = `${palette.blue}`;
-        break;
-      }
-      case "purple": {
-        cursorFg = `${palette.purple}`;
-        break;
-      }
-      default: {
-        cursorFg = `${palette.fg}`;
-      }
-    } // }}}
+    cursorFg = `${palette.fg}`;
   }
   switch (
     configuration.diagnosticTextBackgroundOpacity // {{{
