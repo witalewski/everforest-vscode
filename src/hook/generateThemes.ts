@@ -52,15 +52,6 @@ const utils = new Utils();
 const configuration: Configuration = {
   darkContrast: "medium",
   lightContrast: "medium",
-  darkWorkbench: "material",
-  lightWorkbench: "material",
-  darkSelection: "grey",
-  lightSelection: "grey",
-  darkCursor: "white",
-  lightCursor: "black",
-  italicKeywords: false,
-  italicComments: true,
-  diagnosticTextBackgroundOpacity: "0%",
   highContrast: false,
 };
 

@@ -13,15 +13,6 @@
 export interface Configuration {
   darkContrast?: string;
   lightContrast?: string;
-  darkWorkbench?: string;
-  lightWorkbench?: string;
-  darkSelection?: string;
-  lightSelection?: string;
-  darkCursor?: string;
-  lightCursor?: string;
-  italicKeywords?: boolean;
-  italicComments?: boolean;
-  diagnosticTextBackgroundOpacity?: string;
   highContrast?: boolean;
 }
 

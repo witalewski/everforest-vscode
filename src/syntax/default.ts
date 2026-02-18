@@ -6,8 +6,8 @@
 
 import { Palette } from "../interface";
 
-export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
-  const syntax = [
+export function getDefaultSyntax(palette: Palette) {
+  return [
     // Syntax{{{
     {
       name: "Keyword",
@@ -2153,29 +2153,15 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
         foreground: palette.purple,
       },
     },
+    {
+      name: "Comment",
+      scope: "comment, string.comment, punctuation.definition.comment",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
     // }}}
   ];
-  if (italicComments) {
-    // {{{
-    syntax.push({
-      name: "Comment",
-      scope: "comment, string.comment, punctuation.definition.comment",
-      settings: {
-        foreground: palette.grey1,
-        fontStyle: "italic",
-      },
-    }); // }}}
-  } else {
-    // {{{
-    syntax.push({
-      name: "Comment",
-      scope: "comment, string.comment, punctuation.definition.comment",
-      settings: {
-        foreground: palette.grey1,
-      },
-    });
-  } // }}}
-  return syntax;
 }
 
 // vim: fdm=marker fmr={{{,}}}:
