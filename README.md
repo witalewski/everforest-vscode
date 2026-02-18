@@ -156,19 +156,11 @@ Note: cursor color customization has been removed. Cursor colors now always use 
 
 Note: diagnostic text background opacity customization has been removed. Diagnostic text backgrounds now always use the default Everforest opacity.
 
+Note: italic styling customization has been removed. Keywords and comments are never italicized.
+
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.
 3. Select `Everforest` and change the settings.
-
-## FAQ
-
-**Q: How to enable cursive italic keywords?**
-
-**A:** The `italicKeywords` is designed to use with fonts that support cursive italic styles. To enable this feature:
-
-1. Install a font that supports cursive italic styles, for example: https://aka.sainnhe.dev/fonts
-2. Set the `everforest.italicKeywords` option to `true` in user settings.
-3. (optional) Set the `everforest.italicComments` option to `false` in user settings.
 
 ## Related Projects
 

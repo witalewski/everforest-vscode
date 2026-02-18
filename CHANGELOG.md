@@ -10,6 +10,8 @@ All notable changes to the "everforest" extension will be documented in this fil
 - Always use the default cursor colors in all workbench styles.
 - Remove `everforest.diagnosticTextBackgroundOpacity` customization option.
 - Always use the default diagnostic text background opacity in all workbench styles.
+- Remove `everforest.italicKeywords` and `everforest.italicComments` customization options.
+- Keywords and comments are never italicized.
 
 ## 0.3.0
 

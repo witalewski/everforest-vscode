@@ -96,16 +96,6 @@
             "high-contrast"
           ]
         },
-        "everforest.italicKeywords": {
-          "type": "boolean",
-          "default": false,
-          "description": "Italicize keywords or not."
-        },
-        "everforest.italicComments": {
-          "type": "boolean",
-          "default": true,
-          "description": "Italicize comments or not."
-        },
         "everforest.highContrast": {
           "type": "boolean",
           "default": false,

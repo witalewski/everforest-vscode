@@ -2424,8 +2424,7 @@
       "name": "Comment",
       "scope": "comment, string.comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#939f91",
-        "fontStyle": "italic"
+        "foreground": "#939f91"
       }
     }
   ]

@@ -15,8 +15,6 @@ export interface Configuration {
   lightContrast?: string;
   darkWorkbench?: string;
   lightWorkbench?: string;
-  italicKeywords?: boolean;
-  italicComments?: boolean;
   highContrast?: boolean;
 }
 

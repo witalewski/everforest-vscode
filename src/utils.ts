@@ -30,16 +30,12 @@ export default class Utils {
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),
       darkWorkbench: workspaceConfiguration.get<string>("darkWorkbench"),
       lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
-      italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
-      italicComments: workspaceConfiguration.get<boolean>("italicComments"),
       highContrast: workspaceConfiguration.get<boolean>("highContrast"),
     };
   } // }}}
   isDefaultConfiguration(configuration: Configuration): boolean {
     // {{{
     return (
-      configuration.italicKeywords === false &&
-      configuration.italicComments === true &&
       configuration.lightWorkbench === "material" &&
       configuration.darkWorkbench === "material" &&
       configuration.lightContrast === "medium" &&

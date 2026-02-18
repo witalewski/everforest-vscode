@@ -6,7 +6,7 @@
 
 import { Palette } from "../interface";
 
-export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
+export function getDefaultSyntax(palette: Palette) {
   const syntax = [
     // Syntax{{{
     {
@@ -2155,26 +2155,14 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     },
     // }}}
   ];
-  if (italicComments) {
-    // {{{
-    syntax.push({
-      name: "Comment",
-      scope: "comment, string.comment, punctuation.definition.comment",
-      settings: {
-        foreground: palette.grey1,
-        fontStyle: "italic",
-      },
-    }); // }}}
-  } else {
-    // {{{
-    syntax.push({
-      name: "Comment",
-      scope: "comment, string.comment, punctuation.definition.comment",
-      settings: {
-        foreground: palette.grey1,
-      },
-    });
-  } // }}}
+  // Comment - never italic
+  syntax.push({
+    name: "Comment",
+    scope: "comment, string.comment, punctuation.definition.comment",
+    settings: {
+      foreground: palette.grey1,
+    },
+  });
   return syntax;
 }
 

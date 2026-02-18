@@ -54,8 +54,6 @@ const configuration: Configuration = {
   lightContrast: "medium",
   darkWorkbench: "material",
   lightWorkbench: "material",
-  italicKeywords: false,
-  italicComments: true,
   highContrast: false,
 };
 
