@@ -150,6 +150,8 @@ The following file types and syntax extensions are basically optimized, but ther
 
 There are some configuration options available in this theme, you can customize the palette, contrast, workbench style, etc. via user settings.
 
+Note: selection color customization has been removed. Selection colors now always use the default Everforest values.
+
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.
 3. Select `Everforest` and change the settings.

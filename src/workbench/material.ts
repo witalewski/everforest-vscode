@@ -17,63 +17,9 @@ export function materialWorkbench(
   let cursorFg: string;
   let diagnosticTextBackgroundOpacity: string;
   if (variant === "dark") {
-    switch (
-      configuration.darkSelection // {{{
-    ) {
-      case "grey": {
-        selectionBg = `${palette.bg4}e0`;
-        editorSelectionBg = `${palette.bg4}c0`;
-        editorSelectionBgHl = `${palette.bg4}60`;
-        break;
-      }
-      case "red": {
-        selectionBg = `${palette.dimRed}60`;
-        editorSelectionBg = `${palette.dimRed}40`;
-        editorSelectionBgHl = `${palette.dimRed}20`;
-        break;
-      }
-      case "orange": {
-        selectionBg = `${palette.dimOrange}60`;
-        editorSelectionBg = `${palette.dimOrange}40`;
-        editorSelectionBgHl = `${palette.dimOrange}20`;
-        break;
-      }
-      case "yellow": {
-        selectionBg = `${palette.dimYellow}60`;
-        editorSelectionBg = `${palette.dimYellow}40`;
-        editorSelectionBgHl = `${palette.dimYellow}20`;
-        break;
-      }
-      case "green": {
-        selectionBg = `${palette.dimGreen}60`;
-        editorSelectionBg = `${palette.dimGreen}40`;
-        editorSelectionBgHl = `${palette.dimGreen}20`;
-        break;
-      }
-      case "aqua": {
-        selectionBg = `${palette.dimAqua}60`;
-        editorSelectionBg = `${palette.dimAqua}40`;
-        editorSelectionBgHl = `${palette.dimAqua}20`;
-        break;
-      }
-      case "blue": {
-        selectionBg = `${palette.dimBlue}60`;
-        editorSelectionBg = `${palette.dimBlue}40`;
-        editorSelectionBgHl = `${palette.dimBlue}20`;
-        break;
-      }
-      case "purple": {
-        selectionBg = `${palette.dimPurple}60`;
-        editorSelectionBg = `${palette.dimPurple}40`;
-        editorSelectionBgHl = `${palette.dimPurple}20`;
-        break;
-      }
-      default: {
-        selectionBg = `${palette.bg4}e0`;
-        editorSelectionBg = `${palette.bg4}c0`;
-        editorSelectionBgHl = `${palette.bg4}60`;
-      }
-    } // }}}
+    selectionBg = `${palette.bg4}e0`;
+    editorSelectionBg = `${palette.bg4}c0`;
+    editorSelectionBgHl = `${palette.bg4}60`;
     switch (
       configuration.darkCursor // {{{
     ) {
@@ -114,63 +60,9 @@ export function materialWorkbench(
       }
     } // }}}
   } else {
-    switch (
-      configuration.lightSelection // {{{
-    ) {
-      case "grey": {
-        selectionBg = `${palette.bg4}c0`;
-        editorSelectionBg = `${palette.bg4}a0`;
-        editorSelectionBgHl = `${palette.bg4}50`;
-        break;
-      }
-      case "red": {
-        selectionBg = `${palette.dimRed}60`;
-        editorSelectionBg = `${palette.dimRed}40`;
-        editorSelectionBgHl = `${palette.dimRed}20`;
-        break;
-      }
-      case "orange": {
-        selectionBg = `${palette.dimOrange}60`;
-        editorSelectionBg = `${palette.dimOrange}40`;
-        editorSelectionBgHl = `${palette.dimOrange}20`;
-        break;
-      }
-      case "yellow": {
-        selectionBg = `${palette.dimYellow}60`;
-        editorSelectionBg = `${palette.dimYellow}40`;
-        editorSelectionBgHl = `${palette.dimYellow}20`;
-        break;
-      }
-      case "green": {
-        selectionBg = `${palette.dimGreen}60`;
-        editorSelectionBg = `${palette.dimGreen}40`;
-        editorSelectionBgHl = `${palette.dimGreen}20`;
-        break;
-      }
-      case "aqua": {
-        selectionBg = `${palette.dimAqua}60`;
-        editorSelectionBg = `${palette.dimAqua}40`;
-        editorSelectionBgHl = `${palette.dimAqua}20`;
-        break;
-      }
-      case "blue": {
-        selectionBg = `${palette.dimBlue}60`;
-        editorSelectionBg = `${palette.dimBlue}40`;
-        editorSelectionBgHl = `${palette.dimBlue}20`;
-        break;
-      }
-      case "purple": {
-        selectionBg = `${palette.dimPurple}60`;
-        editorSelectionBg = `${palette.dimPurple}40`;
-        editorSelectionBgHl = `${palette.dimPurple}20`;
-        break;
-      }
-      default: {
-        selectionBg = `${palette.bg4}c0`;
-        editorSelectionBg = `${palette.bg4}a0`;
-        editorSelectionBgHl = `${palette.bg4}50`;
-      }
-    } // }}}
+    selectionBg = `${palette.bg4}c0`;
+    editorSelectionBg = `${palette.bg4}a0`;
+    editorSelectionBgHl = `${palette.bg4}50`;
     switch (
       configuration.lightCursor // {{{
     ) {

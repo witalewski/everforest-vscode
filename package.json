@@ -126,36 +126,6 @@
             "purple"
           ]
         },
-        "everforest.darkSelection": {
-          "type": "string",
-          "default": "grey",
-          "description": "The background color of selected text in the dark variant.",
-          "enum": [
-            "grey",
-            "red",
-            "orange",
-            "yellow",
-            "green",
-            "aqua",
-            "blue",
-            "purple"
-          ]
-        },
-        "everforest.lightSelection": {
-          "type": "string",
-          "default": "grey",
-          "description": "The background color of selected text in the light variant.",
-          "enum": [
-            "grey",
-            "red",
-            "orange",
-            "yellow",
-            "green",
-            "aqua",
-            "blue",
-            "purple"
-          ]
-        },
         "everforest.italicKeywords": {
           "type": "boolean",
           "default": false,

@@ -2,6 +2,11 @@
 
 All notable changes to the "everforest" extension will be documented in this file.
 
+## Unreleased
+
+- Remove `everforest.darkSelection` and `everforest.lightSelection` customization options.
+- Always use the default selection colors in all workbench styles.
+
 ## 0.3.0
 
 - Change `activationEvents`.
